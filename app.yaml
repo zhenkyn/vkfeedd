@@ -20,7 +20,7 @@ handlers:
   upload: static
 
 - url: /.*
-  script: vkfeedd.main.app
+  script: vkfeed.main.app
 
 skip_files:
 - ^(.*/)?app\.yaml
